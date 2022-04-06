@@ -1,2 +1,2 @@
 # MepoGNN
-Metapopulation Graph Neural Networks
+Metapopulation Epidemic Forecasting with Graph Neural Networks
