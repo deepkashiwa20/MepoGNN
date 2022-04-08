@@ -10,7 +10,7 @@ contains a dictionary of three numpy array: 'node' for node features; 'SIR' for 
 #### commute_jp.npy 
 contains commuter flow data. 
 
-Input and output
+### Input and output
 * Input node features: historical daily confirmed cases, daily movement change, the ratio of daily confirmed cases in active cases and day of week. 
 * Input for adaptive graph learning: commuter survey data
 * Input for dynamic graph learning: OD flow data
