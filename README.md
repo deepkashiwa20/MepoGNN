@@ -26,7 +26,7 @@ Working environment and major dependencies:
 
 ## Run Model
 
-Download this project into your device， then run the following:
+Download this project into your device, then run the following:
 
 ``
 cd /model
