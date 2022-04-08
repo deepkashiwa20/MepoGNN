@@ -4,11 +4,15 @@
 In this study, we use historical daily infection data and human mobility data to implement epidemic forecasting for the total 47 prefectures of Japan. 
 We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region (prefecture) infection number prediction by incorporating spatio-temporal Graph Neural Networks (GNNs) and graph learning mechanisms into Metapopulation SIR model.
 
-## Data
+## Data Description
 * Input node features: historical daily confirmed cases, daily movement change, the ratio of daily confirmed cases in active cases and day of week. 
 * Input for adaptive graph learning: commuter survey data
 * Input for dynamic graph learning: OD flow data
 * Output target: future daily confirmed cases
+
+* jp20200401_20210921.npy contains a dictionary of three numpy array: 'node' for input node features; 'SIR' for S, I, R data; 'od' for OD flow data.
+* commute_jp.npy contains commuter flow data. 
+
 
 ## Installation Dependencies
 Working environment and major dependencies:
