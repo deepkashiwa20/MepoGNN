@@ -10,6 +10,7 @@ We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region
 * Input for dynamic graph learning: OD flow data
 * Output target: future daily confirmed cases
 
+
   #### jp20200401_20210921.npy 
   contains a dictionary of three numpy array: 'node' for node features; 'SIR' for S, I, R data; 'od' for OD flow data.
   #### commute_jp.npy 
