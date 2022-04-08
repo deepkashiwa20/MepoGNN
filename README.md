@@ -1,8 +1,9 @@
 # MepoGNN: Metapopulation Epidemic Forecasting with Graph Neural Networks
 
 ## Introduction
-In this study, we use historical daily infection data and human mobility data to implement epidemic forecasting for the total 47 prefectures of Japan. 
-We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region (prefecture) infection number prediction by incorporating spatio-temporal Graph Neural Networks (GNNs) and graph learning mechanisms into Metapopulation SIR model.
+ We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region (prefecture) infection number prediction by incorporating spatio-temporal Graph Neural Networks (GNNs) and graph learning mechanisms into Metapopulation SIR model.
+ 
+ In this study, we use historical daily infection data and human mobility data to implement epidemic forecasting for the total 47 prefectures of Japan.
 
 ## Data Description
 #### jp20200401_20210921.npy 
