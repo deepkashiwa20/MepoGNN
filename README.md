@@ -8,7 +8,7 @@ We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region
 #### jp20200401_20210921.npy 
 contains a dictionary of three numpy array: 'node' for node features; 'SIR' for S, I, R data; 'od' for OD flow data.
 #### commute_jp.npy 
-contains commuter flow data. 
+contains commuter survey data. 
 
 #### Input and output
 * Input node features: historical daily confirmed cases, daily movement change, the ratio of daily confirmed cases in active cases and day of week. 
