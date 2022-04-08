@@ -19,14 +19,14 @@ Working environment and major dependencies:
 
 ## Run Model
 
-Download this project into your device， then
+Download this project into your device， then run the following:
 
 ``
 cd /model
 ``
 
 
-Choose graph learning type (Adaptive or Dynamic) and run the main program to train, validate and test on video card 0:
+Choose graph learning type (Adaptive or Dynamic) and run the main program to train, validate and test on GPU 0:
 
 ``
 python Main.py -GPU cuda:0 -graph Adaptive
