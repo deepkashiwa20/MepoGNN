@@ -1,3 +1,7 @@
+'''
+Part of code is adapted from https://github.com/nnzhan/Graph-WaveNet
+'''
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
