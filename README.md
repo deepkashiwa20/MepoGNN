@@ -1,7 +1,24 @@
 # MepoGNN: Metapopulation Epidemic Forecasting with Graph Neural Networks
 
+
+#### [ECMLPKDD22] Q. Cao, R. Jiang#, C. Yang, Z. Fan, X. Song, R. Shibasaki, "MepoGNN: Metapopulation Epidemic Forecasting with Graph Neural Networks", Proc. of the 26th European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECMLPKDD), 2022.
+
+#### Code and data are now available.
+```bibtex
+@inproceedings{cao2022mepognn,
+  title={Mepognn: Metapopulation epidemic forecasting with graph neural networks},
+  author={Cao, Qi and Jiang, Renhe and Yang, Chuang and Fan, Zipei and Song, Xuan and Shibasaki, Ryosuke},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={453--468},
+  year={2022},
+  organization={Springer}
+}
+```
+#### Long Version in ArXiv
+[![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=MepoGNN&color=red&logo=arxiv)](https://arxiv.org/abs/2306.14857)
+
 ## Introduction
- We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region (prefecture) infection number prediction by incorporating spatio-temporal Graph Neural Networks (GNNs) and graph learning mechanisms into Metapopulation SIR model.
+We propose a novel hybrid model called MepoGNN for multi-step (day) multi-region (prefecture) infection number prediction by incorporating spatio-temporal Graph Neural Networks (GNNs) and graph learning mechanisms into Metapopulation SIR model.
  
  In this study, we use historical daily infection data and human mobility data to implement epidemic forecasting for the total 47 prefectures of Japan.
 
