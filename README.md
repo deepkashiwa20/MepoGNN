@@ -14,7 +14,7 @@
   organization={Springer}
 }
 ```
-#### Long Version in ArXiv
+#### Long Version of The Conference Paper
 [![Arxiv link](https://img.shields.io/static/v1?label=arXiv&message=MepoGNN&color=red&logo=arxiv)](https://arxiv.org/abs/2306.14857)
 
 ## Introduction
